@@ -3,6 +3,7 @@ const RouterLink = {
     About: "/about",
     Service: "/service",
     Guards: "/guards",
-    Contact: "/contact"
+    Contact: "/contact",
+    Profile: "/profile"
 };
 export default RouterLink;

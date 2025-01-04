@@ -2,6 +2,7 @@ import AboutPage from "../Page/AboutPage/AboutPage";
 import ContactPage from "../Page/ContactPage/ContactPage";
 import GuardsPage from "../Page/GuardsPage/GuardsPage";
 import HomPage from "../Page/HomePage/HomPage";
+import ProfilePage from "../Page/ProfilePage/ProfilePage";
 import ServicePage from "../Page/ServicePage/ServicePage";
 import RouterLink from "../Untils/RouterLink";
 
@@ -25,5 +26,9 @@ export const clientRoute=[
     {
         path: RouterLink.Contact,
         element: ContactPage
+    },
+    {
+        path: RouterLink.Profile,
+        element: ProfilePage
     }
 ]
